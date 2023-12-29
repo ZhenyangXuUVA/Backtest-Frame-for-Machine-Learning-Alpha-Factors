@@ -2,20 +2,15 @@
 Backtest Frame for Machine Learning Alpha Factors
 
 ## Introduction
-Vision Transformers (ViTs) architecture have demonstrated promising performance in the field of computer vision. We are interested in implementing one of the popular ViTs - MViTv2 on one of the important computer vision tasks - Instance Segmentation. The PointRend method was developed to output high-quality instance segmentation. We implement the vision transformer based Mask R-CNNs with the PointRend method and evaluate its performance. We believe that the transformer architecture could potentially help extract more contextual and semantic information for the feature source in this case. Therefore, we implement the vision transformer based Mask R-CNN as well as using the PointRend method for our instance segmentation task. 
+Quantitative Analysis using Machine Learning techniques in digging alpha factors has become a mainstream in industry nowadays. This project is aiming at creating a simple backtest frame implementing a framework of machine learning alpha factors. This includes: Linear Regression, Logistic Regression, Random Tree Forest, XGBoost, Fully Connected Neural Network, CNN(Convolution Neural Network), RNN(Recurrent Neural Networks) including LSTM, self-attention layers. This project is undergoing. 
 
 ## Goals
-- Implementing GANs from scratch using Pytorch.
-- Understand the implementation of the original Mask R-CNN model, MViTv2 and PointRend method.
-- Understand how above are implemented in Detectron2 framework.
-- Implement Mask R-CNN using PyTorch from scratch.
-- Update the CNN backbone of the Mask R-CNN with the Vision Transformer - MViTv2.
-- Integrate the PointRend method to the transformer based Mask R-CNN model.
-- Train the model using the COCO dataset (with downsized data + data augmentation).
-- Evaluate the model.
-- Train the network with the MNIST dataset to generate digit images.
-- Improve the GANs with Deep Convolutional GANs and train it with custom dataset downloaded from Kaggle.
-- Apply some variations such as using Spectral Normalization technique for training.
+- Implementing a simple backtest frame to easily incorporate common machine learning or deep learning algorithms.
+- Phase One: implementing Linear Regression, Logistic Regression;
+- Phase Two: implementing Random Tree Forest, XGBoost;
+- Phase Three: implementing Fully Connected Neural Network;
+- Phase Four: implementing CNN(Convolution Neural Network);
+- Phase Five: implementing RNN(Recurrent Neural Networks) including LSTM, self-attention layers. 
 
 ## Requirement
 Packages required for this program is listed below:
@@ -26,22 +21,20 @@ Packages required for this program is listed below:
 - [Pytorch](https://github.com/pytorch): A package used for image and video processing
 
 ## Code files:
-- Generative_Adversarial_Network_V1.ipynb: Notebook Version 1
-- Generative_Adversarial_Network_V1.py: Python Code Version 1
-- Generative_Adversarial_Network_V2.ipynb: Notebook Version 2
-- Generative_Adversarial_Network_V2.py: Python Code Version 2
-- DCGAN_MNIST.ipynb：Generate MNIST digit images with Deep Convolutional GAN (DCGAN)
-- DCGAN_MNIST.py: Generate MNIST digit images with Deep Convolutional GAN (DCGAN)
-- DCGAN_CIFAR_no_Spectral Normalization.ipynb: Generate CIFAR-10 images with DCGAN
-- DCGAN_CIFAR_no_Spectral Normalization.py: Generate CIFAR-10 images with DCGAN
-- DCGAN_CIFAR_with_Spectral_Normalization.ipynb: Generate CIFAR-10 images with SN-DCGAN
-- DCGAN_CIFAR_with_Spectral_Normalization.py: Generate CIFAR-10 images with SN-DCGAN
+- Broker.py: Broker Class
+- DataLoader.py: Data Loading interface
+- AlphaFactor.py: General Super-class for alpha factors
+- AlphaDemo.py: An demo/example for alpha factors
+- HelperFunctions.py: A set of frequently used functions for constructing ML alpha factors
+- Linear_Regression.py: implementing Linear Regression, Logistic Regression
+- Logistic_Regression.py: implementing Linear Regression, Logistic Regression
+- FCN.py: implementing Fully Connected Neural Network
+- CNN.py: implementing CNN(Convolution Neural Network)
+- RNN.py: implementing RNN(Recurrent Neural Networks) including LSTM, self-attention layers
 
 ## Output Image files:
-- Output_Images_V1: Generated Images x 100
-- Research Paper
-- Image Generation with SN-DCGAN on MNIST (Figure01)
-- Image Generation with SN-DCGAN on CIFAR-10 (Figure02)
+- Output_Images_01: 
+- Output_Images_02:
 
 ## Results:
 - Image Generation with SN-DCGAN on MNIST: 
