@@ -33,11 +33,11 @@ Packages required for this program is listed below:
 - RNN.py: implementing RNN(Recurrent Neural Networks) including LSTM, self-attention layers
 
 ## Output Image files:
-- Output_Images_01: 
-- Output_Images_02:
+- Output_Images_01: Example Output: Backtest Annual Retures with Linear Regression
+- Output_Images_02: Example Output: Backtest Cumulative Retures with Linear Regression
 
 ## Results:
 - Image Generation with SN-DCGAN on MNIST: 
-<img src="" width="600" height="300">
+<img src="https://github.com/ZhenyangXuUVA/Backtest-Frame-for-Machine-Learning-Alpha-Factors/blob/main/Readme/Figure01.png" width="600" height="300">
 - Image Generation with SN-DCGAN on CIFAR-10:
-<img src="" width="600" height="300">
+<img src="https://github.com/ZhenyangXuUVA/Backtest-Frame-for-Machine-Learning-Alpha-Factors/blob/main/Readme/Figure02.png" width="600" height="300">
