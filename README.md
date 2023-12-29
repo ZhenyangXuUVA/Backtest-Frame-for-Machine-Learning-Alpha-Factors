@@ -38,6 +38,6 @@ Packages required for this program is listed below:
 
 ## Results:
 - Example Output: Backtest Annual Retures with Linear Regression: 
-<img src="https://github.com/ZhenyangXuUVA/Backtest-Frame-for-Machine-Learning-Alpha-Factors/blob/main/Readme/Figure01.png" width="600" height="300">
+<img src="https://github.com/ZhenyangXuUVA/Backtest-Frame-for-Machine-Learning-Alpha-Factors/blob/main/Readme/Figure01.png" width="400" height="200">
 - Example Output: Backtest Cumulative Retures with Linear Regression:
-<img src="https://github.com/ZhenyangXuUVA/Backtest-Frame-for-Machine-Learning-Alpha-Factors/blob/main/Readme/Figure02.png" width="600" height="300">
+<img src="https://github.com/ZhenyangXuUVA/Backtest-Frame-for-Machine-Learning-Alpha-Factors/blob/main/Readme/Figure02.png" width="400" height="200">
